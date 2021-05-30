@@ -1,0 +1,47 @@
+.card {
+    margin: 20px 0;
+}
+
+.fa-user {
+    font-size: 115px;
+}
+
+.media-body {
+    margin: auto;
+}
+
+.blueBack {
+    background-color: #0054A3;
+}
+
+.yellowBack {
+    background-color: #FFEF00;
+}
+
+h1 {
+    font-family: ubuntu;
+}
+
+h5 {
+    font-family: oxygen !important;
+}
+
+button {
+    font-family: oxygen !important;
+}
+
+th {
+    font-family: oxygen;
+}
+
+p {
+    font-family: libre franklin;
+}
+
+td {
+    font-family: libre franklin;
+}
+
+.picTop {
+    margin-top: -100px;
+}

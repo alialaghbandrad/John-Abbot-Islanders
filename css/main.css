@@ -1,0 +1,188 @@
+#headerBack {
+  font-family: ubuntu;
+  /* height: 80px; */
+  background-color: #0054a3;
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+#logo {
+  width: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.abbott-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  background: none;
+  margin-left: 70px;
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+#secondNav {
+  display: none;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: Oxygen !important;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.2rem;
+}
+
+#abbott-carousel {
+  margin-top: -100px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#footerBack {
+  background-color: #ffef00;
+  height: 110px;
+  padding-top: 15px;
+}
+
+.row {
+  text-align: center;
+}
+
+#footLogo {
+  width: 110px;
+}
+
+.footLink {
+  color: black;
+  text-decoration: none;
+  font-family: Libre Franklin;
+}
+
+.socialContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.socialIcon {
+  width: 40px;
+  padding-top: 10px;
+}
+
+#smallHead {
+  display: none;
+}
+
+.second-abbott-nav {
+  background-color: white;
+  width: 150px;
+  opacity: 80%;
+  border-radius: 10px;
+  margin-top: -130px;
+}
+
+.third-abbott-nav {
+  background-color: white;
+  width: 150px;
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+#secondSiteTitle {
+  font-size: 1.2rem;
+}
+
+#logoInside {
+  width: 80px;
+  text-align: center;
+}
+
+#secondFooter {
+  display: none;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1200px) {
+  .socialIcon {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #firstNav {
+    display: none;
+  }
+  #secondNav {
+    display: flex;
+  }
+  #siteTitle {
+    font-size: 2rem;
+    padding: 15px 0 0 220px;
+  }
+  .socialIcon {
+    padding: 3px;
+  }
+  .nav-link {
+    color: black !important;
+    font-family: Oxygen !important;
+    text-shadow: none;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #siteTitle {
+    font-size: 1.5rem;
+    padding-top: 5px;
+  }
+  #footerBack {
+    height: fit-content;
+  }
+  #secondNav {
+    margin-top: 15px;
+  }
+  #logo {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 679px) {
+  #logo {
+    width: 100px;
+  }
+  #secondNav {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #secondNav,
+  #logo,
+  #abbott-carousel,
+  #siteTitle {
+    display: none;
+  }
+  #smallHead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  #secondSiteTitle {
+    display: none;
+  }
+}
